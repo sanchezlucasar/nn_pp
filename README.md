@@ -1,2 +1,5 @@
 # nn_pp
- NextJs-NextAuth-Prisma-Postgresql
+Registro de Usuarios, Login y Dashboard con sesiones utilizando 
+
+*NextAuth , Prisma, NextJs,  PostrgeSql 
+
