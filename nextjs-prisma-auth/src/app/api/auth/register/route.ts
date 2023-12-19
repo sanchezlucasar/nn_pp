@@ -52,7 +52,7 @@ export async function POST(request: Request) {
         const { password: _, ...user } = newUser;
 
         return NextResponse.json(user);
-    } catch (error) {
+    } catch (error: any) {
         return NextResponse.json(
             {
                 message: error.message,
